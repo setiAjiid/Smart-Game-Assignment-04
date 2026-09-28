@@ -12,7 +12,7 @@ public class GridNode
     public int hCost; //biaya perkiraan dari start ke node tujuan (goal node)
 
     public GridNode parent;
-    public GameObject visual;
+    public GameObject visual; //title scene untuk diwarnai
 
     public int FCost => gCost + hCost;
 
